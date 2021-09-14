@@ -2,6 +2,7 @@ import './App.css';
 import styled, { css } from 'styled-components';
 import Name from './components/Name';
 import About from './components/About';
+import Projects from './components/Projects';
 
 const SectionPage = styled.div`
   margin-top: 75px;
@@ -80,6 +81,7 @@ function App() {
         <SectionCushion></SectionCushion>
 
       <Typography title>"PROJECTS"</Typography>
+        <Projects />
         <SectionCushion></SectionCushion>
 
       <Typography title>"ABOUT"</Typography>
