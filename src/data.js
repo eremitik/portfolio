@@ -35,7 +35,8 @@ export const projectData = [
   },
   {
     Title: "Givesy",
-    Image: Givesy
+    Image: Givesy,
+    Link: "https://github.com/eremitik/givesy"
   },
   {
     Title: "Sageka",
@@ -44,14 +45,17 @@ export const projectData = [
   },
   {
     Title: "Multisig Wallet",
-    Image: Multisig
+    Image: Multisig,
+    Link: "https://github.com/eremitik/multisig-wallet"
   },
   {
     Title: "Token Price",
-    Image: Tokenpx
+    Image: Tokenpx,
+    Link: "https://github.com/eremitik/tokenprice"
   },
   {
     Title: "5w.",
-    Image: Fivew 
+    Image: Fivew,
+    Link: "https://github.com/eremitik/5w"
   }
 ]

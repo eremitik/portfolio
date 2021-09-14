@@ -39,14 +39,19 @@ const Image = styled.img`
   // z-index: -2;
 `
 
-function Project({ data }) {
-  console.log(data.Link)
+const Link = styled.a`
+  color: black;
+  text-decortation-color: transparent;
+`
 
+function Project({ data }) {
   return (
-    <Card href={data.Link}>
-      <Typography>{data.Title}</Typography>
-      <Image src={data.Image}/>
-    </Card>
+    <Link href={data.Link} target="_blank">
+      <Card>
+        <Typography>{data.Title}</Typography>
+        <Image src={data.Image}/>
+      </Card>
+    </Link>
   )
 }
 
