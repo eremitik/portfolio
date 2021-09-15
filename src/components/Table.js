@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const StyledTable = styled.table`
   color: grey;
+  font-size: 16px;
   font-weight: 700;
   border: none;
   border-collapse: collapse;
@@ -18,10 +19,10 @@ const StyledTable = styled.table`
 const TableMarkup = ({ titles, data }) => (
   <StyledTable>
     <tbody>
-      {data.map((item) => (
-        <tr>
-          {titles.map((title) => (
-            <td>{item[title]}</td>
+      {data.map((item, index) => (
+        <tr key={index}>
+          {titles.map((title, index) => (
+            <td key={index}>{item[title]}</td>
           ))}
         </tr>
       ))}
@@ -29,7 +30,4 @@ const TableMarkup = ({ titles, data }) => (
   </StyledTable>
 );
 
-export default ({ data }) => (
-  <TableMarkup titles={Object.keys(data[0])} data={data} />
-);
-
+export default TableMarkup

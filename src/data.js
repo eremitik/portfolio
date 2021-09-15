@@ -14,15 +14,27 @@ export const aboutData = [
   },
   {
     Title: "Address",
-    Info: "Fuchu, Tokyo"
-  },
-  {
-    Title: "Past Companies",
-    Info: "Citigroup, Nomura, Bluemountain, AFO Pte. Ltd., Pokket"
+    Info: "Tokyo, Japan"
   },
   {
     Title: "Contact",
     Info: "mikio.crosby[at]gmail.com"
+  },
+  {
+    Title: "Current Company",
+    Info: "Could be you"
+  },
+  {
+    Title: "Current Title",
+    Info: "Software Engineer"
+  },
+  {
+    Title: "Past Companies",
+    Info: "Citigroup, Nomura, Bluemountain, AFO Pte. Ltd., Pokket, HOSTY"
+  },
+  {
+    Title: "Past Titles",
+    Info: "Derivatives Associate, Head Trader, Portfolio Manager, COO, CEO"
   }
 ];
 

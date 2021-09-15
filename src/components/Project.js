@@ -24,14 +24,14 @@ const Typography = styled.p`
   margin-top: auto;
   margin-left: 25px;
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -1px;
 `
 
 const Image = styled.img`
   position: relative;
   display: inline-block;
-  width: 600px;
+  width: 615px;
   float: right;
   margin-top: auto;
   margin-left: auto;

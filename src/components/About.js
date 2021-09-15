@@ -5,7 +5,7 @@ import { aboutData } from '../data';
 function About() {
   return (
     <div>
-      <Table data={aboutData} />
+      <Table titles={Object.keys(aboutData[0])} data={aboutData} />
     </div>
   )
 }

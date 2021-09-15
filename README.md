@@ -1,6 +1,6 @@
 # MIKIO Crosby.
 
-My new portfolio website to showcase and highlight what I've been working on.\
+My new portfolio website to showcase and highlight what I've been working on.
 
 <!-- Please visit the site [here](https://eremitik.github.io/mywebsite/#/)! -->
 

@@ -35,7 +35,11 @@ const Typography = styled.p`
   font-size: 40px;
   font-weight: 700;
 
-  ${props => props.title && css`
+  ${props => props.strike && css`
+    text-decoration: line-through;
+  `}
+
+  ${props => props.header && css`
     margin-bottom: 10px;
   `}
 
@@ -51,7 +55,12 @@ const Typography = styled.p`
   `}
 
   ${props => props.resume && css`
-    font-size: 15px; 
+    text-decoration: underline;
+    font-size: 16px; 
+    transition: 0.3s;
+    &:hover {
+      color: grey;
+    }
   `}
 `
 
@@ -66,34 +75,42 @@ function App() {
  
     <SectionIntro>
 
-      <Typography title>"MISSION"</Typography>
-      <Typography>世界中に暗号通貨ファンを</Typography>
-      <Typography>生み出すデベロッパーへ。</Typography>
+      <Typography header>"MISSION"</Typography>
+      <Typography>Create more fans of crypto</Typography>
+      <Typography secondary>世界中に暗号通貨ファンを</Typography>
+      <Typography>through my dev skills.</Typography>
+      <Typography secondary>生み出すデベロッパーへ。</Typography>
         <SectionCushion></SectionCushion>
 
-      <Typography title>"VALUE"</Typography>
-      <Typography>Growth First</Typography>
-      <Typography secondary>成長が正義</Typography>
+      <Typography header>"VALUE"</Typography>
+      <Typography>Positive <span style={{textDecoration:"line-through"}}>Zero</span> sum</Typography>
+      <Typography secondary>ポジティブサムに時間かける</Typography>
       <Typography>Fearless</Typography>
       <Typography secondary>隠れるな</Typography>
       <Typography>Work Hard Play Hard</Typography>
       <Typography secondary>思いっきり働き 思いっきり遊ぶ</Typography>
         <SectionCushion></SectionCushion>
 
-      <Typography title>"PROJECTS"</Typography>
+      <Typography header>"PROJECTS"</Typography>
         <Projects />
         <SectionCushion></SectionCushion>
 
-      <Typography title>"ABOUT"</Typography>
+      <Typography header>"ABOUT"</Typography>
         <About />
         <SectionCushion></SectionCushion>
 
-      <Typography title>"RESUME"</Typography>
-      <Typography resume>Write some stuff about my resume, give EN/JP options to Notion.</Typography>
-        <SectionCushion copyright></SectionCushion>
+      <Typography header>"RESUME"</Typography>
+      <a href="https://swanky-lunch-e8a.notion.site/MIKIO-Crosby-6d8f1911197e47a3bbbce95f72d3649f" target="_blank">
+        <Typography resume>For a more detailed look at my background, please view my resume.</Typography>
+      </a>
 
-      <Typography copyright>&copy;MIKIO Crosby. All rights Reserved.</Typography>
-        <SectionCushion copyright></SectionCushion>
+      <a href="https://swanky-lunch-e8a.notion.site/5315a84a8092496d83518d7e05bf923d" target="_blank">
+        <Typography resume>詳しい経歴は履歴書に記載しております。</Typography>
+      </a>
+ 
+      <SectionCushion copyright></SectionCushion>
+        <Typography copyright>&copy;MIKIO Crosby. All rights Reserved.</Typography>
+      <SectionCushion copyright></SectionCushion>
 
 
     </SectionIntro>

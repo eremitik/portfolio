@@ -1,7 +1,12 @@
-// for the MIKIOCrosby and socials
-
 import React from 'react';
 import styled from 'styled-components';
+import Twitter from '../icons/twitter.png'
+import Github from '../icons/github.png'
+import Linkedin from '../icons/linkedin.png'
+
+const NameDiv = styled.div`
+  width: 200px;
+`
 
 const Typography = styled.p`
   color: white;
@@ -11,12 +16,36 @@ const Typography = styled.p`
   text-orientation: mixed;
 `
 
+const SocialContainer = styled.div`
+  margin-top: 200px;
+  margin-left: auto;
+  width: 100px;
+`
+
+const Image = styled.img`
+  cursor: pointer;
+  width: 15px;
+`
+
+const ImageCushion = styled.div`
+  margin-top: 25px;
+`
+
+const Link = styled.a``
+
 function Name () {
 
   return (
-    <div>
+    <NameDiv>
         <Typography>MIKIO Crosby.</Typography>
-    </div>
+        <SocialContainer>
+          <Link href="https://github.com/eremitik" target="_blank"><Image src={Github}/></Link>
+            <ImageCushion></ImageCushion>
+          <Link href="https://twitter.com/eremitik" target="_blank"><Image src={Twitter}/></Link>
+            <ImageCushion></ImageCushion>
+          <Link href="https://www.linkedin.com/in/eremitik/" target="_blank"><Image src={Linkedin}/></Link>
+        </SocialContainer>
+    </NameDiv>
   )
 }
 
