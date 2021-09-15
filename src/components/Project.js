@@ -1,6 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const Container = styled.div`
+  width: 1000px;
+`
+
 const Card = styled.div`
   position: relative;
   bottom: 0;
@@ -58,6 +62,7 @@ const Image = styled.img`
 const Link = styled.a`
   color: black;
   text-decortation-color: transparent;
+  width: 1000px;
 `
 
 function Project({ data }) {

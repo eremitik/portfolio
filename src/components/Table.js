@@ -15,6 +15,10 @@ const StyledTable = styled.table`
     color: white;
   }
 
+  a {
+    pointer-events: none;
+  }
+
   @media only screen and (max-width: 414px) {
     font-size: 12px;
   }
