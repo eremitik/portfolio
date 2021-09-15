@@ -17,6 +17,13 @@ const Card = styled.div`
   &:hover {
     bottom: 5px;
   }
+
+  @media only screen and (max-width: 414px) {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: calc(70vw);
+    height: 250px;
+  }
 `
 
 const Typography = styled.p`
@@ -26,6 +33,10 @@ const Typography = styled.p`
   font-size: 25px;
   font-weight: 800;
   letter-spacing: -1px;
+
+  @media only screen and (max-width: 414px) {
+    display: block;
+  }
 `
 
 const Image = styled.img`
@@ -35,8 +46,13 @@ const Image = styled.img`
   float: right;
   margin-top: auto;
   margin-left: auto;
-  // margin-right: -10px;
-  // z-index: -2;
+
+  @media only screen and (max-width: 414px) {
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: auto;
+    width: 100%;
+  }
 `
 
 const Link = styled.a`

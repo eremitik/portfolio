@@ -14,6 +14,10 @@ const StyledTable = styled.table`
   td:nth-child(2) {
     color: white;
   }
+
+  @media only screen and (max-width: 414px) {
+    font-size: 12px;
+  }
 `;
 
 const TableMarkup = ({ titles, data }) => (

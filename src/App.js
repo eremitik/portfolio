@@ -6,6 +6,11 @@ import Projects from './components/Projects';
 
 const SectionPage = styled.div`
   margin-top: 75px;
+
+  @media only screen and (max-width: 414px) {
+    margin-top: 60px;
+    width: calc(100vw - 100px);
+  }
 `
 
 const SectionIntro = styled.div`
@@ -13,6 +18,11 @@ const SectionIntro = styled.div`
   display: inline-block;
   text-align: left;
   margin-left: 200px;
+
+  @media only screen and (max-width: 414px) {
+    color: red;
+    margin-left: 100px;
+  }
 `
 
 const SectionSide = styled.div`
@@ -27,6 +37,10 @@ const SectionCushion = styled.div`
   ${props => props.copyright && css`
     margin-top: 100px;
   `}
+
+  @media only screen and (max-width: 414px) {
+    margin-top: 75px;
+  }
 `
 
 const Typography = styled.p`
@@ -34,6 +48,10 @@ const Typography = styled.p`
   color: white;
   font-size: 40px;
   font-weight: 700;
+
+  @media only screen and (max-width: 414px) {
+    font-size: 25px;
+  }
 
   ${props => props.strike && css`
     text-decoration: line-through;
@@ -47,11 +65,19 @@ const Typography = styled.p`
     font-size: 13px;
     color: grey;
     margin-bottom: 10px;
+
+    @media only screen and (max-width: 414px) {
+      font-size: 10px;
+    }
   `}
 
   ${props => props.copyright && css`
     font-size: 10px;
     color: grey;
+
+    @media only screen and (max-width: 414px) {
+      font-size: 10px;
+    }
   `}
 
   ${props => props.resume && css`
@@ -61,7 +87,15 @@ const Typography = styled.p`
     &:hover {
       color: grey;
     }
+
+    @media only screen and (max-width: 414px) {
+      font-size: 12px;
+    }
   `}
+`
+
+const ResumeDiv = styled.div`
+    width: 80vw;
 `
 
 
@@ -99,6 +133,7 @@ function App() {
         <About />
         <SectionCushion></SectionCushion>
 
+      <ResumeDiv>
       <Typography header>"RESUME"</Typography>
       <a href="https://swanky-lunch-e8a.notion.site/MIKIO-Crosby-6d8f1911197e47a3bbbce95f72d3649f" target="_blank">
         <Typography resume>For a more detailed look at my background, please view my resume.</Typography>
@@ -107,6 +142,7 @@ function App() {
       <a href="https://swanky-lunch-e8a.notion.site/5315a84a8092496d83518d7e05bf923d" target="_blank">
         <Typography resume>詳しい経歴は履歴書に記載しております。</Typography>
       </a>
+      </ResumeDiv>
  
       <SectionCushion copyright></SectionCushion>
         <Typography copyright>&copy;MIKIO Crosby. All rights Reserved.</Typography>

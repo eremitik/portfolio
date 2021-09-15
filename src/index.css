@@ -11,6 +11,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media only screen and (max-width: 414px) {
+  body {
+    width: 100vw;
+  }
+}
+
 a {
   text-decoration: none !important;
 }
