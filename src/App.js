@@ -14,12 +14,13 @@ const SectionPage = styled.div`
 `
 
 const SectionIntro = styled.div`
-  margin-top: 0px;
+  margin-top: -8px;
   display: inline-block;
   text-align: left;
   margin-left: 200px;
 
   @media only screen and (max-width: 414px) {
+    margin-top: -4px;
     color: red;
     margin-left: 100px;
   }
