@@ -18,11 +18,7 @@ export const aboutData = [
   },
   {
     Title: "Contact",
-    Info: "mikio.crosby[at]gmail.com"
-  },
-  {
-    Title: "Current Company",
-    Info: "Could be you"
+    Info: "mikio.crosby @gmail[dot]com"
   },
   {
     Title: "Current Title",
