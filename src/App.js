@@ -20,7 +20,7 @@ const SectionIntro = styled.div`
   margin-left: 200px;
 
   @media only screen and (max-width: 414px) {
-    margin-top: -4px;
+    margin-top: -5px;
     color: red;
     margin-left: 100px;
   }
@@ -141,7 +141,7 @@ function App() {
       </a>
 
       <a href="https://swanky-lunch-e8a.notion.site/5315a84a8092496d83518d7e05bf923d" target="_blank">
-        <Typography resume>詳しい経歴は履歴書に記載しております。</Typography>
+        <Typography resume>より詳しい経歴は履歴書をご覧ください。</Typography>
       </a>
       </ResumeDiv>
  

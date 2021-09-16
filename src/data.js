@@ -26,7 +26,7 @@ export const aboutData = [
   },
   {
     Title: "Past Companies",
-    Info: "Citigroup, Nomura, Bluemountain, AFO Pte. Ltd., Pokket, HOSTY"
+    Info: "Citigroup, Nomura, Bluemountain, AFO Pte. Ltd., HOSTY, Pokket"
   },
   {
     Title: "Past Titles",
