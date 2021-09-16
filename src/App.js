@@ -135,14 +135,14 @@ function App() {
         <SectionCushion></SectionCushion>
 
       <ResumeDiv>
-      <Typography header>"RESUME"</Typography>
-      <a href="https://swanky-lunch-e8a.notion.site/MIKIO-Crosby-6d8f1911197e47a3bbbce95f72d3649f" target="_blank">
-        <Typography resume>For a more detailed look at my background, please view my resume.</Typography>
-      </a>
+        <Typography header>"RESUME"</Typography>
+          <a href="https://swanky-lunch-e8a.notion.site/MIKIO-Crosby-6d8f1911197e47a3bbbce95f72d3649f" target="_blank">
+            <Typography resume>For a more detailed look at my background, please view my resume.</Typography>
+          </a>
 
-      <a href="https://swanky-lunch-e8a.notion.site/5315a84a8092496d83518d7e05bf923d" target="_blank">
-        <Typography resume>より詳しい経歴は履歴書をご覧ください。</Typography>
-      </a>
+          <a href="https://swanky-lunch-e8a.notion.site/5315a84a8092496d83518d7e05bf923d" target="_blank">
+            <Typography resume>より詳しい経歴は履歴書をご覧ください。</Typography>
+          </a>
       </ResumeDiv>
  
       <SectionCushion copyright></SectionCushion>
