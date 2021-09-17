@@ -34,13 +34,14 @@ const SectionSide = styled.div`
 const SectionCushion = styled.div`
   margin-top: 100px;
 
+  @media only screen and (max-width: 1200px) {
+    margin-top: 75px;
+  }
+
   ${props => props.copyright && css`
     margin-top: 100px;
   `}
 
-  @media only screen and (max-width: 1200px) {
-    margin-top: 75px;
-  }
 `
 
 const Typography = styled.p`
@@ -146,7 +147,7 @@ function App() {
  
       <SectionCushion copyright></SectionCushion>
         <Typography copyright>&copy;MIKIO Crosby. All rights Reserved.</Typography>
-      <SectionCushion copyright></SectionCushion>
+      <SectionCushion></SectionCushion>
 
 
     </SectionIntro>
