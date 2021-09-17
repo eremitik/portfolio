@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 const SectionPage = styled.div`
   margin-top: 75px;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     margin-top: 60px;
     width: calc(100vw - 100px);
   }
@@ -19,9 +19,8 @@ const SectionIntro = styled.div`
   text-align: left;
   margin-left: 200px;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     margin-top: -5px;
-    color: red;
     margin-left: 100px;
   }
 `
@@ -39,7 +38,7 @@ const SectionCushion = styled.div`
     margin-top: 100px;
   `}
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     margin-top: 75px;
   }
 `
@@ -50,7 +49,7 @@ const Typography = styled.p`
   font-size: 40px;
   font-weight: 700;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 768px) {
     font-size: 25px;
   }
 
@@ -67,7 +66,7 @@ const Typography = styled.p`
     color: grey;
     margin-bottom: 10px;
 
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 768px) {
       font-size: 10px;
     }
   `}
@@ -76,7 +75,7 @@ const Typography = styled.p`
     font-size: 10px;
     color: grey;
 
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 768px) {
       font-size: 10px;
     }
   `}
@@ -89,7 +88,7 @@ const Typography = styled.p`
       color: grey;
     }
 
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 768px) {
       font-size: 12px;
     }
   `}
