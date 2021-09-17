@@ -49,7 +49,7 @@ const Typography = styled.p`
   font-size: 40px;
   font-weight: 700;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 860px) {
     font-size: 25px;
   }
 
@@ -66,7 +66,7 @@ const Typography = styled.p`
     color: grey;
     margin-bottom: 10px;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 860px) {
       font-size: 10px;
     }
   `}
@@ -75,7 +75,7 @@ const Typography = styled.p`
     font-size: 10px;
     color: grey;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 860px) {
       font-size: 10px;
     }
   `}
@@ -88,7 +88,7 @@ const Typography = styled.p`
       color: grey;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 860px) {
       font-size: 12px;
     }
   `}

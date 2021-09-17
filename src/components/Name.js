@@ -25,7 +25,7 @@ const Typography = styled.p`
 `
 
 const SocialContainer = styled.div`
-  margin-top: 200px;
+  margin-top: calc(100vh - 790px);
   margin-left: auto;
   width: 100px;
 
