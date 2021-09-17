@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 const SectionPage = styled.div`
   margin-top: 75px;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     margin-top: 60px;
     width: calc(100vw - 100px);
   }
@@ -19,9 +19,8 @@ const SectionIntro = styled.div`
   text-align: left;
   margin-left: 200px;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     margin-top: -5px;
-    color: red;
     margin-left: 100px;
   }
 `
@@ -35,13 +34,14 @@ const SectionSide = styled.div`
 const SectionCushion = styled.div`
   margin-top: 100px;
 
+  @media only screen and (max-width: 1200px) {
+    margin-top: 75px;
+  }
+
   ${props => props.copyright && css`
     margin-top: 100px;
   `}
 
-  @media only screen and (max-width: 414px) {
-    margin-top: 75px;
-  }
 `
 
 const Typography = styled.p`
@@ -50,7 +50,7 @@ const Typography = styled.p`
   font-size: 40px;
   font-weight: 700;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 860px) {
     font-size: 25px;
   }
 
@@ -67,7 +67,7 @@ const Typography = styled.p`
     color: grey;
     margin-bottom: 10px;
 
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 860px) {
       font-size: 10px;
     }
   `}
@@ -76,7 +76,7 @@ const Typography = styled.p`
     font-size: 10px;
     color: grey;
 
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 860px) {
       font-size: 10px;
     }
   `}
@@ -89,7 +89,7 @@ const Typography = styled.p`
       color: grey;
     }
 
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 860px) {
       font-size: 12px;
     }
   `}
@@ -135,19 +135,19 @@ function App() {
         <SectionCushion></SectionCushion>
 
       <ResumeDiv>
-      <Typography header>"RESUME"</Typography>
-      <a href="https://swanky-lunch-e8a.notion.site/MIKIO-Crosby-6d8f1911197e47a3bbbce95f72d3649f" target="_blank">
-        <Typography resume>For a more detailed look at my background, please view my resume.</Typography>
-      </a>
+        <Typography header>"RESUME"</Typography>
+          <a href="https://swanky-lunch-e8a.notion.site/MIKIO-Crosby-6d8f1911197e47a3bbbce95f72d3649f" target="_blank">
+            <Typography resume>For a more detailed look at my background, please view my resume.</Typography>
+          </a>
 
-      <a href="https://swanky-lunch-e8a.notion.site/5315a84a8092496d83518d7e05bf923d" target="_blank">
-        <Typography resume>より詳しい経歴は履歴書をご覧ください。</Typography>
-      </a>
+          <a href="https://swanky-lunch-e8a.notion.site/5315a84a8092496d83518d7e05bf923d" target="_blank">
+            <Typography resume>より詳しい経歴は履歴書をご覧ください。</Typography>
+          </a>
       </ResumeDiv>
  
       <SectionCushion copyright></SectionCushion>
         <Typography copyright>&copy;MIKIO Crosby. All rights Reserved.</Typography>
-      <SectionCushion copyright></SectionCushion>
+      <SectionCushion></SectionCushion>
 
 
     </SectionIntro>

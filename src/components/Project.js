@@ -22,6 +22,16 @@ const Card = styled.div`
     bottom: 5px;
   }
 
+  @media only screen and (max-width: 1200px) {
+    width: calc(100vw - 125px);
+  }
+
+  @media only screen and (max-width: 860px) {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 60vw;
+  }
+
   @media only screen and (max-width: 414px) {
     margin-bottom: 30px;
     margin-top: 20px;
@@ -37,10 +47,6 @@ const Typography = styled.p`
   font-size: 25px;
   font-weight: 800;
   letter-spacing: -1px;
-
-  @media only screen and (max-width: 414px) {
-    display: block;
-  }
 `
 
 const Image = styled.img`
@@ -51,11 +57,21 @@ const Image = styled.img`
   margin-top: auto;
   margin-left: auto;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 860px) {
+    position: absolute;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: auto;
+    width: calc(100vw - 125px);
+    height: auto;
+  }
+
+  @media only screen and (max-width: 585px) {
     position: absolute;
     margin-top: 5px;
     margin-bottom: auto;
     width: 100%;
+    height: auto;
   }
 `
 

@@ -7,7 +7,7 @@ import Linkedin from '../icons/linkedin.png'
 const NameDiv = styled.div`
   width: 200px;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     width: 100px;
   }
 `
@@ -19,17 +19,17 @@ const Typography = styled.p`
   writing-mode: vertical-rl;
   text-orientation: mixed;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     font-size: 40px;
   }
 `
 
 const SocialContainer = styled.div`
-  margin-top: 200px;
+  margin-top: calc(100vh - 790px);
   margin-left: auto;
   width: 100px;
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     margin-top: calc(100vh - 475px);
     margin-bottom: auto;
     width: 50px;

@@ -19,7 +19,7 @@ const StyledTable = styled.table`
     pointer-events: none;
   }
 
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 1200px) {
     font-size: 12px;
   }
 `;
