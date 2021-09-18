@@ -11,6 +11,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background: white;
+  color: black;
+}
+
 @media only screen and (max-width: 1200px) {
   body {
     width: 100vw;
