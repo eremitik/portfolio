@@ -3,6 +3,22 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   width: 1000px;
+  @media only screen and (max-width: 1200px) {
+    width: calc(100vw - 125px);
+  }
+
+  @media only screen and (max-width: 860px) {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 60vw;
+  }
+
+  @media only screen and (max-width: 414px) {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: calc(70vw);
+    height: 250px;
+  }
 `
 
 const Card = styled.div`
@@ -83,12 +99,14 @@ const Link = styled.a`
 
 function Project({ data }) {
   return (
+    <Container>
     <Link href={data.Link} target="_blank">
       <Card>
         <Typography>{data.Title}</Typography>
         <Image src={data.Image}/>
       </Card>
     </Link>
+    </Container>
   )
 }
 

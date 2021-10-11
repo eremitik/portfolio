@@ -4,6 +4,7 @@ import Sageka from './images/sageka.png';
 import Multisig from './images/multisig.png';
 import Tokenpx from './images/tokenpx.png';
 import Fivew from './images/fivew.png';
+import Looot from './images/looot.png';
 
 
 
@@ -26,16 +27,21 @@ export const aboutData = [
   },
   {
     Title: "Past Companies",
-    Info: "Citigroup, Nomura, Bluemountain, AFO Pte. Ltd., Hosty, Pokket"
+    Info: "Citigroup, Nomura, Bluemountain, AFO Pte. Ltd., Pokket"
   },
   {
     Title: "Past Titles",
-    Info: "Derivatives Associate, Head Trader, Portfolio Manager, COO, CEO"
+    Info: "Derivatives Associate, Head Trader, Portfolio Manager, CEO"
   }
 ];
 
 
 export const projectData = [
+  {
+    Title: "Looot",
+    Image: Looot,
+    Link: "https://github.com/eremitik/nftmarket"
+  },
   {
     Title: "Renty",
     Image: Renty,
