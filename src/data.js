@@ -2,9 +2,10 @@ import Renty from './images/renty.png';
 import Givesy from './images/givesy.png';
 import Sageka from './images/sageka.png';
 import Multisig from './images/multisig.png';
-import Tokenpx from './images/tokenpx.png';
 import Fivew from './images/fivew.png';
 import Looot from './images/looot.png';
+import Pokket from './images/pokket.png';
+import Cyan from './images/cyan.png';
 
 
 
@@ -38,6 +39,16 @@ export const aboutData = [
 
 export const projectData = [
   {
+    Title: "Cyan",
+    Image: Cyan,
+    Link: "https://www.usecyan.com/"
+  },
+  {
+    Title: "Pokket",
+    Image: Pokket,
+    Link: "https://pokket.com/"
+  },
+  {
     Title: "Looot",
     Image: Looot,
     Link: "https://github.com/eremitik/nftmarket"
@@ -58,16 +69,11 @@ export const projectData = [
     Link: "https://github.com/eremitik/sageka"
   },
   {
-    Title: "Multisig Wallet",
+    Title: "Multisig",
     Image: Multisig,
     Link: "https://github.com/eremitik/multisig-wallet"
   },
-  {
-    Title: "Token Price",
-    Image: Tokenpx,
-    Link: "https://github.com/eremitik/tokenprice"
-  },
-  {
+ {
     Title: "5w.",
     Image: Fivew,
     Link: "https://github.com/eremitik/5w"
