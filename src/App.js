@@ -134,6 +134,7 @@ function App() {
         <About />
         <SectionCushion></SectionCushion>
 
+      {/*
       <ResumeDiv>
         <Typography header>"RESUME"</Typography>
           <a href="https://swanky-lunch-e8a.notion.site/MIKIO-Crosby-6d8f1911197e47a3bbbce95f72d3649f" target="_blank">
@@ -144,6 +145,7 @@ function App() {
             <Typography resume>より詳しい経歴は履歴書をご覧ください。</Typography>
           </a>
       </ResumeDiv>
+      */}
  
       <SectionCushion copyright></SectionCushion>
         <Typography copyright>&copy;MIKIO Crosby. All rights Reserved.</Typography>
