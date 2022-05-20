@@ -95,9 +95,9 @@ const Typography = styled.p`
   `}
 `
 
-const ResumeDiv = styled.div`
-    width: 80vw;
-`
+//const ResumeDiv = styled.div`
+//    width: 80vw;
+//`
 
 
 function App() {
